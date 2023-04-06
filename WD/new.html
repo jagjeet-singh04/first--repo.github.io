@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial </title>
+    <link rel="stylesheet" href="new2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h3>This is the CSS Tutorial </h3>
+    <!-- <P> this Tutorial will teach you everything about the css</P>
+    <P>we can change the colour by using style colour: red and also we can change the background colour of the text for ex-</P>
+    <P style="color: blue; background-color: chartreuse;"> now the text colour and background colour  has changed</P> -->
+    <P>now if we need to fill the colour then we can do this by using the style now this colour has change to aqua colour</P>
+    <style>
+        #third{
+            color: aqua;
+            background-color: black;
+        }
+    </style>
+    <P>we can use !important so that we can decide which we can use </P>
+    <P>now we will know about the CSS selectors</P>
+    <P>if we will just simply write the paragraph over the paragraph then it will be in the same colour untill we specify the paragraph that we want to change for ex-</P>
+    <P>this is 1st para</P>
+    <P id = "name" class="color bgm">
+        this is 2nd para
+    </P>
+    <P id = "third">this is 3rd para</P>
+    <P>so now i will specify the paragraph that i want to put the colours in let us condider in the 3rd para so now it can be done by specifying the id we can give the id instead of writing the p </p>  
+    <P> we can also do this by using the class let us do it in the second para</P>
+    <P> now let us specify the class in the second para for class . is used and for ids # is used</P>
+    <style>
+        .color{
+            color: blue;
+        }
+        .bgm{
+            background-color: brown;
+        }
+    </style>
+    <P> so now you can see that the 2nd para has changed the background-color and the colour of the letters</P>
+    <P> we can also do them by grouping selectors</P>
+    <span>this is a span</span>
+    <footer>this is a footer</footer>
+    <style>
+        footer,span{
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <P>
+        so now the backend colour of the footer and the span has changed to black
+    </P>
+    <P>if we wnat to give the comments in the css then it can be done by /* </P>
+    <p>it can be done in the html sheet ( in style which is a part of the css) or it can be done the separate sheet of the css</p>
+    <P>for ex if i define the the style in the html so it will be commented by using /*</P>
+    <P>we can also use the shortcut by using the ctrl+/ to comment in the style</P>
+    <P>for ex-</P>
+    <style>
+        /* this is a commment */
+    </style>
+    <P> now i will jsut use the border in all the paragraphs</P>
+    <style>
+        P{
+            border: 2px solid greenyellow;
+        }
+    </style>
+    <P>now we will learn about the chrome development tools when we run a code and just left click on it and then click on inspect then we can make changes in the chrome itself but again when we refresh it. it will be again same as the code written. </P>
+    <P> this will not make any changes to the vs code in which the code has been written </P>
+    <P>similarly we can also go to other websites and do the same things it will only be temporary it will not be permanent</P>
+    <P>now we will know about the CSS fonts</P>
+    <P id="font">
+        we can change the fonts in the styles
+    </P>
+    <style>
+        #font{
+            font-family: Sevillana, cursive ;
+            font-size: 33px;
+            line-height: 5.6em; 
+        }
+    </style>
+    <P>now the font of the id named font has been changed here we use font-family ( it consists of many type of the fonts as if there is not any one font availabel so it can use the other font</P>
+    <P>we can get many type of the fonts from css font stack and the best one is google fonts which is availabel on the google</P>
+    <P>we can also increase or decrease the fon size</P>
+    <P> pixel is the 1/96 of the inch it should be in the px</P>
+    <P>we can also increase or decrease the line height line height is the height(spacing) b/w the two fonts line height should be in the em </P>
+    <P> if we want to bold the character or increase the size of the character then we can do it by using font weight </P>
+    <P id = "fw"> this is done by using font weight </P>
+    <style>
+        #fw{
+            font-weight: 800;
+        }
+    </style>
+    <P> if in a paragraph we want to bold the particular character or a word then we cna do it by using the span in between the paragraph and then we can specify the span as bold ex:-</P>
+    <P><span>hello</span> this word is bold using the span</P>
+    <P>we also do it in itallic</P>
+    <style>
+        span{
+            font-weight: 800;
+            font-style: italic;
+        }
+    </style>
+    <P> now we will know about the colours in css</P>
+    <P> we can give colour in by simply typing color in the style , by using rgb in the style or by using hacks color in the styles</P>
+    <P id = "first"> this this is first which is just done by color </P>
+    <P id = "second">this is the second this is done by rgb </P>
+    <p id = "third">this is the third this is done by hax color</p>
+    <style>
+        #first{
+            color: blue;
+        }
+        #second {
+            color: rgb(200,80,56 );
+        }
+        #third{
+            color: #ffff;
+        }
+    </style>
+    <P> now we will know about the height width borders and background </P>
+    <P>we can define the border color height width of the background color</P>
+    <P id = "chw">this is a paragraph</P>
+    <P> if we need the border corner rounded then this can be done by using border radius</P>
+    <style>
+        #chw{
+            background-color: aqua;
+            height: 100px;
+            width: 400px;
+            border-width: 4px;
+            border-color: chartreuse;
+            border-style: dotted;
+            border-radius: 25px;
+        }
+    </style>
+    <P> if we want to give the different borders in 4 sides then we can use border top bottom left right</P>
+    <P id = "sec">this is the second paragraph</P>
+    <style>
+        #sec{
+            background-color: aqua;
+            height: 100px;
+            width: 400px;
+            border-top: 9px solid violet;
+            border-bottom: 9px solid blue;
+            border-left: 9px solid green;
+            border-right: 9px solid rgb(222, 246, 87) ;
+            border-top-left-radius: 14px;
+            border-top-right-radius: 14px;
+            border-bottom-right-radius: 14px;
+            border-bottom-left-radius: 14px ;
+        }
+    </style>
+    <P> if we want to insert an background image then u can do it just by typing background-image</P>
+    <P> we can also give the height and teh width to the image and can also give the border to the image and if the image is repeating then we can stop it by using background-repeat</P>
+    <P id = "thirdpara">
+        this is the third paragrpah 
+    </P>
+    <style>
+        #thirdpara{
+            height: 800px;
+            width: 950px;
+            border-color: blue;
+            background-image: url("31024718.jpg");
+            background-repeat: no-repeat;
+            background-position: center center; /* this is in x and y direction so we can define it if we write 122px center then the image will be in the 122 px from x direction and center in y direction we can also do center top or center bottom so the image will be in center form x axis and top from y axis*/
+        }
+    </style>
+    <P> if we want to repeat the image in the x direction then we can use repeatx if we want in y direction then we can use repeaty</P>
+    <P> now we will know about the box model margin and padding</P>
+    <P> first comes the margins then inside it comes border then it comes the padding </P>
+    <P> padding is used to arrange the words ( letters ) inside the border</P>
+    <div class="contain">
+        <P id="first"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam ratione odit tenetur sapiente deleniti est voluptates. Hic, voluptatibus repudiandae.</P>
+    </div>
+    <div class="contain">
+        <P id="second"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam ratione odit tenetur sapiente deleniti est voluptates. Hic, voluptatibus repudiandae.</P>
+    </div>
+    <div class="contain">
+        <P id="thirdp"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam ratione odit tenetur sapiente deleniti est voluptates. Hic, voluptatibus repudiandae.</P>
+    </div>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(119, 203, 239);
+        }
+        .contain{
+            background-color: bisque;
+            border: 3px solid red;
+            padding:  34px 19px;
+            margin: 34px 19px;
+            border-radius: 23px;
+            width: 400px;
+            box-sizing: border-box;
+            /* padding-left: 20px;
+            padding-top: 30px;
+            padding-bottom: 40px;
+            padding-right: 45px; 
+            padding: 23px 45px 22px 42px; { --> padding: top left bottom right } 
+            padding: 42px 23px; { --> padding: y(top/bottom) x(left/right)}
+            margin-top: 19px ;
+            margin-left: 12px;
+            margin-bottom: 32px;
+            margin-right: 25px;
+            margin: 23px 42px 41px 22px; { --> margin: top left bottom right }
+            margin: 42px 23px; { --> margin: y(top/bottom) x(left/right)}*/ 
+            
+
+        }
+    </style>
+    <P> we can also give padding top padding bottom padding left padding right</P>
+    <!-- we can also give the padding together padding = top right bottom left as we can give   padding: 23px 42px 34px 56px; -->
+    <P>we can also give padding if we want top bottom same and left right same then we can use padding: y(top/bottom) x(left/right); it means padding: 34px 20px; </P>
+    <P> we can also give margin in the x and y direction which is same as the padding</P>
+    <P> if we will try to increase the padding when the width is fixed then also the width will increase this is becoz the actual width of the element there is added the margin we can solve this problem by using box-sizing</P>
+    <P>if we want to use the box sizing to the whole then we can use the universal sizing</P>
+    <p>now we will know about the alignment</p>
+    <div class="container1">
+        <div id="friuts" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis possimus porro ad tempore beatae quod, explicabo perferendis vero numquam nobis exercitationem perspiciatis aspernatur debitis recusandae, minima quasi officia nostrum saepe!
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara" class="para1">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam hic, dolorem optio dignissimos est harum ab dolores distinctio, aut nulla obcaecati atque? Accusantium eaque adipisci esse, sed cupiditate officiis vel illum obcaecati.
+            </p>
+        </div>
+        <div id="stationery" class="item">
+            <h3>Stationery</h3>
+            <p id="stationerypara" class="para1">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, ducimus tenetur ex nulla exercitationem ipsa debitis reprehenderit error natus, molestias quos fuga neque labore omnis cum, sequi animi dicta ipsum. Commodi, cum.
+            </p>
+        </div> 
+    </div>
+    <style>
+        *{
+
+        }
+        .container1{
+
+        }
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: ;
+        }
+    </style>
+
+
+    
+
+
+   
+
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="description" content = " revision ">
+    <meta name = "title" content="revision , html revision , hello ">
+    <meta name="robots" content="INDEX FOLLOW" >
+    <title>HTML REVISION</title>
+    <a href=""></a>
+    <link rel="stylesheet" href="js.css">
+    <script src="jeet.js"></script>
+</head>
+<body>
+    <h1> REVISION ( this is heading ) </h1>
+    <P> this is the the paragraph  </P>
+    <p> we can create multiple paragraph by using p*n here n is the no. of the paragraph ex - p*4 will create 4 paragraph </p>
+    <P>now if we want the text to be in bold so we can use b tag to bold the line <b> this line is in bold </b>
+    and we want the text to be in the ittalic form so we can use i tag <i>this text is in itallic type </i></P>
+    <P>if we want to put the break in the line in the same paragraph we can do this by using br tag this will break the line <br> this text will be in next line but written in the samae paragraph  </P>
+    <p> if we want to give the horizontal line we can do this by using hr tag this will create the line<hr> </p>
+    <p> the hr tag and the br tag are the self closing tags we need not to close the tag it will automatically close the tag</p>
+    <p>if we want to insert the link in the page so we can do it just by typing a  and then clicking on the first tag so 
+        there you can insert the link
+    </p>
+    <P>here is the link to the google and linkedin </P>
+    <a href="https://google.com">open google </a><br>
+    <a href="https://linkedin.com">open linkedin </a>
+    <p>if we want the user to open the link in the new tab so just type target = "_blank" then it will open the link in the new tab</p>
+    <a href="https://google.com" target="_blank">go to google</a><br>
+    <a href="https://linkedin.com" target="_blank">go to linkedin</a>
+    <p>now the above linkes will be opened in the new tabs</p>
+    <P>if we want to insert html same process will be repeated but you just need to type in href / before giving the name of the html </P>
+    <a href="/jagjeet.html" target="_blank">open my html</a>
+    <p>the above link will open the html also in new tab </p>
+    <p>now if we wnat to insert the image in our page then just type img then press enter now give the link or the path to insert the image </p>
+    <img src="https://source.unsplash.com/random/?Cryptocurrency/" alt="error loading the image ">
+    <P> the above link will open the random image based onn the crypto here alt is used when the net is slow or the image does not exist </P>
+    <p> if u want to create the unorderd list then use ul( unordered list ) then iside this use li to give the line </p>
+    <ul>
+        <li>this is an unordered list</li>
+        <li>this is an unordered list</li>
+    </ul>
+    <p> if we want to use the cricles squares except bullet points ( which is automatically created ) 
+        we can do it by specifying the type of the unordered list 
+    </p>
+    <ul type = "circle ">
+        <li> this is an unorderd list </li>
+        <li>this is an unordered list </li>
+    </ul>
+    <p> now if we want to create an oredred list then we can do this by using ol( ordered list) then inside this use li to give the line </p>
+    <ol>
+        <li>this is an ordered list</li>
+        <li>this is an ordered list </li>
+    </ol>
+    <P>if we want to give roman numbers in the ordered lis we can do this by just specifying the type of the ordered list</P>
+    <ol type = "I">
+        <li>this is an ordered list </li>
+        <li>this is an ordered list </li>
+    </ol>
+    <p> if we want to give the table then just use the table tag inside this use the thead tag and tbody tag so we create the table</p>
+    <table>
+        <thead>
+            <tr>
+               <th> sno.</th>
+               <th> name </th>
+               <th> class</th>
+               <th> rollno.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+             <td>1</td>
+             <td>revision</td>
+             <td>1</td>
+             <td>2</td>
+            </tr>
+            <tr>
+                <td>2 </td>
+                <td> rev</td>
+                <td>2 </td>
+                <td> 34</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>so by this we create the table </p>
+    <p>now we will know about the forms forms can be created by just typing the form and clicking the enter 
+        in this we will use the action as backend.php 
+    </p>
+    <form action="backend.php"></form>
+    <p>now we will use div (divison) it is used for dividing </p>
+    <p>now we will specify the heading and the we will use input as is used for taking the input from the user </p>
+    <p> here the type is text and the name is used if when we have more names the we can use name to find the equivalence vale 
+        and the id is used for labelling
+    </p>
+    <label for="name"> name</label>
+    <div>
+        <input type="text" name = "name" id="name " >
+    </div>
+    <br>
+    <label for="class">class</label>
+    <div>
+        <input type="number" name = "class" id = "class">
+    </div>
+    <br>
+    <label for="rollno"> Roll no.</label>
+    <div>
+        <input type="number" name="rollno" id="rollno">
+    </div>
+    <br>
+    <label for="subject">subject </label>
+    <div>
+        <input type="text" name="subject" id ="subject">
+    </div>
+    <br>
+    <div>
+        are you intersted in maths: <input type="checkbox" name = "intersted" checked>
+    </div>
+    <br>
+    <div>
+        do you want to part in the competition: yes<input type="radio" name = "competition"> no <input type="radio" name="competition"> 
+    </div>
+    <br>
+    <label for="subjects">choose subject in which you want to take part in the competition</label>
+    <div>
+        <select name="subjects" id="subjects">
+            <option value="maths">maths</option>
+            <option value="physics">physics</option>
+            <option value="chemistry" selected>chemistry</option>
+        </select>
+    </div>
+    <br>
+    <div>
+    <input type="reset" value= " reset">
+    </div>
+    <br>
+    <div>
+        <input type="submit" value= "submit" >
+    </div>
+    <P> if we want to give the border to our paragrph then we can do it by :-</P>
+    <P style="border: 2px solid red; "> this is a pragraph with the red border in it..</P>
+    <P>similarly we can do for giving it the blue colour</P>
+    <P style="border: 2px solid blue;"> this is a paragraph with blue border in it</P>
+    <P>if we need to combine the two paragraphs then we can do it by using span</P>
+    <span> this is a paragraph </span> <span> this is also a paragraph which is combined with the help of span </span>
+    <P>so now we will get to know about the ids and classes. ids are used to uniquely identify the elements </P>
+    <div id = "mainBox" class="redbg"></div>
+    <P>if we want to give the class inside the div then there is a shortcut for this :- just type .classname and then ur div with classes si created if you 
+        want two or more classes then you can just type .class1.class2 here the class1 and class2 are creaated with div
+    </P>
+    <div class="class1 class2">this div is created using the shortcut</div>
+    <P>if we need to get the span classes and id in a shortcut way by jsut typing span.classname for class and then span#mainbox1 here . is used for class and # is used for ids</P>
+    <span class="class">this is the class which is created using shortcut</span>
+    <span id="id1">this is the id which is created using the shortcut </span>
+    <P> if we need the multiple span then we can do this by typing span.classname*3 so here 3 classes are created </P>
+    <span class="class">this is the class created using multiple span </span><span class="class"></span><span class="class"></span><span class="class"></span>
+    <P> now we will know about some entities which are :- 
+        for space - & nbsp;
+        for greater than and smaller than - & gt ; and & lt;
+        for pound - & pound; 
+        for copyright - & copy; 
+        for empty character- &#8203 ;
+    </P>
+    <P> now we will know abut the details if we have large details so it can be used</P>
+    <P> ex - </P>
+    <details>
+        this is the details
+    </details>
+    <P> another ex - </P>
+    <details>
+        <summary>
+            this is another example of the details
+        </summary>
+    </details>
+</body>
+</html>

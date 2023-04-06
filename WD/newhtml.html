@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <div class="container">
+        <h1>
+            welcome to my store
+        </h1>
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitspara" class="para1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam neque quidem eos dicta dolor vel delectus expedita qui libero quia magni alias dolore optio a repellat magnam, reiciendis odit in.
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara" class="para1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, quaerat nostrum. Neque amet asperiores, modi in ex ratione perspiciatis vitae repellat labore? Saepe molestias corporis adipisci delectus, eveniet nesciunt quibusdam!
+            </p>
+        </div>
+        <div id="stationery" class="item">
+            <h3>stationery</h3>
+            <p id="stationerypara" class="para1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore iste necessitatibus est ipsa officiis dicta iusto nulla, autem delectus ratione odit suscipit, facere eum assumenda, a itaque totam hic doloribus eaque.
+            </p>
+        </div>
+    </div>
+    <style>
+        *{ /*this is used to give the styles to the whole document*/
+            box-sizing: border-box;
+        }
+        body{
+            font-family:'Sevillana', cursive;;
+        }
+        .container{ /*this is used to gibe the style to the class conatiner contained area only */
+            width: 900px;
+            border: 3px solid purple;
+            background-color: bisque;
+            /*now if we want to center the paragraph so we can do it by using the margin auto*/
+            margin: auto;
+            /*the margin auto will set the paragraph in the center in the x direction*/ 
+            
+
+
+        }
+        .item{ /*this is used to give the style with the class item contained area only*/
+            border: 2px solid grey;
+            margin: 19px 12px;
+            padding:19px 12px;
+            background-color: rgb(159, 220, 200);
+        }
+        #fruits{
+            float: left;
+            /* width: 50%; */
+            width: 48%;
+
+        }
+        #computer{
+            float: left;
+            /* width: 50%; */
+            width: 48%;
+
+        }
+        #stationery{
+            /* clear: right; /*this eans ki koi bhi float left element mere upar na aaye mere pr left pr float left element allowed nhi h  */
+            float: left;
+            /* width: 50%; */
+            width: 100%;
+
+        }
+        p,h1{
+            text-align: left;
+            text-align: right; /*jo baad me likha hua h voh mana jaata h toh ye text align right mana jaega na ki text align left mana jayega*/
+            /* if i will use text align as justify toh joh pehle jessa tha jab apn ne text align nhi use kiya tha toh voh uske jessa ho jayega  */
+        }
+    </style>
+</body>
+</html>

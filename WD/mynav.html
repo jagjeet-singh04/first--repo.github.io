@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Sevillana&display=swap" rel="stylesheet">
+
+    <style>
+        div{
+
+        }
+        div li{
+            list-style: none;
+            background-color: rgb(10, 10, 165);
+            padding: 25px 16px;
+            border-radius: 25px 25px;
+            
+        }
+        div a{
+            text-decoration: none;
+            color: aliceblue;
+            padding: 12px 12px;
+            font-size: larger;
+        }
+        
+        div ul{
+            overflow: auto;
+            
+
+        }
+        .text{
+            float:right;
+            color: aliceblue;
+            padding:1px 25px ;
+            font-family: 'Cinzel', serif;
+            font-family: 'Sevillana', cursive;
+            
+
+        }
+        /* div input{
+            float:right;
+            font-size: large;
+            font-family: 'Cinzel', serif;
+            
+        } */
+        .hi{
+            padding: 5px 75px;
+        }
+        .my{
+            width: auto;
+            padding:3px 25px ;
+            border-radius: 15px 15px ;
+        }
+        .text{
+            padding: 0px 55px;
+        }
+        .hi:hover{
+            color: pink;
+            border: 2px solid greenyellow;
+            border-radius: 15px 15px;
+        }
+        .hi:active{
+            color:yellow;
+            border: 2px solid grey;
+            border-radius: 15px 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <ul class="ul">
+                <li>
+                    <a href="#" class="hi">Home</a>
+                    <a href="#" class="hi">About</a>
+                    <a href="#" class="hi">Services</a>
+                    <a href="#" class="hi">Gallery</a>
+                    <a href="#" class="hi">Feedback</a>
+                    <!-- <div class="text" id="text">
+                        <input type="text" placeholder="Search This Website">
+                    </div> -->
+                    <div class="text" id="text">
+                        <input type="text" class="my" placeholder="Search This Website">
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+</body>
+</html>

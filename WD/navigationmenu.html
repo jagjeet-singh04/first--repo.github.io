@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+</head>
+<style>
+    .navbar{
+        background-color: black;
+        border-radius: 30px 30px ;
+    }
+    .navbar li{
+        float: left; /* ye yun krega ki apka jo  ablout us vagera h un sabhi ko left pr leke aa jayega */
+        list-style: none; /* list kya krega ki jo bullet points list(li) se aaye the un sabhi ko remove kr dega ye*/
+        margin: 25px 25px;
+        padding:center;
+    }
+    .navbar ul{
+        overflow: auto; /* ye basically krta ye h ki jab apn ne sabse pehle isko color diya tha na toh voh isko lagane se pehle nhi dikhega kyonki apn ne float lagaya tha toh voh overflow ho gya tha tho isko lagane se voh hat jayega aur color aa jayega*/
+        font-size: larger;
+    }
+    .navbar a{
+        padding: 20px 20px;
+        color: white;
+        text-decoration: none; /* jab apn href lagayenge toh ye neeche underline laga dega toh usko hatane k liye apn text decoration ko none krte h*/
+    }
+    .search{
+        float:right;
+        color: black;
+        padding: 21px 85px;
+        font-size: large;
+ 
+    }
+    .navbar input{ /* ye isliye diya taki apn input me jo bhi h usse control kr ske */
+        border: 2px black;
+        border-radius: 6px;
+        font-size: large;
+        padding: 7px 14px;
+    }
+    .my{
+        font-size: large;
+    }
+
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="#"> Home</a></li> <!-- here a is the anchor tag -->
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li> <a href="#"> Contact Us</a></li>
+                <div class="search">
+                    <input type="text" class="my" id="search" placeholder ="Search this website"> <!-- paceholder jab kaam aata h jab yadi apn search wale option pr dekte h ki kuch likha hua hota h voh placeholder k dwara likh skte h -->
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

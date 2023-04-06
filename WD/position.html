@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border:2px solid red;
+            height: 150px;
+            width:200px;
+            margin:2px;
+            /* ab apn ye jo 4 boxes h unko ab apn ek line pr krenge with the help of dislay inline */
+            display: inline-block;
+        }
+        /* now we will know about the positions :static(which is by default) ,absolute , relative fixed , sticky
+        by defining the relative property we can apply top bottom etc. relative position means relative to its currrent position and will leave a gap at its normal position ( we can operate its position from top bottom left right)
+        -agr apne ko apni purani ( original ) position pr gap chahiye toh apn relative use krenge aur agr gap nhi chahiye toh apn absolute use krenge 
+        -if we will do absolute it means relative to the parent and it will be operated from its first parent we can define its top bottom left and right in the relative position from the parent
+        if we will do static it will gain its original postition
+        fixed mylb chipka hua iska matlab ye h ki agr apn fixed apply krte h toh voh ussi position pr rahega jis bhi position me apn ne usko align kiya h aur agr apn scrollbar ko down bhi kr denge toh bhi voh vahi ka vahi rahega fixed :- position relative to the browser window 
+        sticky:- bhi vahi krega yadi apn sticky apply krte h toh voh bhi scrollbar se scroll krne pr neeche nhi aayega vahi ka vahi rahega voh bhi */
+        #box3{
+            position:sticky;
+            top:3px;
+        }
+        .container{
+            border: 2px solid blue;
+            background-color: khaki;
+            height: 3444px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">chat with us</div>
+    <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>

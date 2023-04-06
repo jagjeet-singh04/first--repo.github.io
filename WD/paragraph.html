@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is description"> <!-- this will create the description of the page -->
+    <meta name="keywords" content="hello first page "> <!-- this will create the keywords which user can use to get your page --> 
+    <meta name=" robots" content=" INDEX , FOLLOW"> <!-- this will create so that the links you mentioned could be open -->
+    <title> heading paragraph</title>
+
+</head>
+<body>
+    <h1>jagjeet</h1> <!-- this is the largest size for the heading of the page it can go upto 6 times  -->
+    <h2>jagjeet </h1>
+    <h3>jagjeet </h1>
+    <h4>jagjeet </h1>
+    <h5>jagjeet </h1>
+    <h6>jagjeet </h1> <!-- this is the smallet size for the heading of your page -->
+    <!-- this will link the css -->
+    <link rel="stylesheet" href="js.css">
+
+    <p> this is paragraph </p> <!-- this is used to write paragraph for the page-->
+    <p>this is  a new paragraph </p>
+    <p> Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia sit aspernatur neque! Officia culpa accusantium excepturi. Alias dolorem harum eaque laborum odit minima enim quod voluptatibus assumenda, ipsa consequuntur, iusto dicta beatae similique error earum libero.</p> <!-- here lorem is used which create the word by its own if we type lorem 40 so it will create 40 words-->
+    <!-- if we need to insert the new paragraph then we can do p*4 this will create 4 paragraph -->
+    <p>first </p>
+    <p>second</p>
+    <p>third</p>
+    <p>if we need to bold our text then we can use strong tags for ex <strong>now this text has becomes bold by using the strong tag</strong> we can also use bold tag to bold our text <b>this text is using</b> and if we need to change our font so we can do it with emphasis tag whose short form is em <em>now this text font has changed and if we need to write the text in the new line without changing the paragraph so we use line break which is represented by br. this br tag is self closing tag which does not have any closing tag  <br> this text will be in new line but in same paragraph</em></p>
+    <hr> <!-- if we use hr tag which means horizontal rule tag this will create ruler ( line ) -->
+    <p>fourth </p>
+    <p> if we want to write in a new line in a same paragraph so you can use br tags ex <br> now this will be in new line and this br tag is self closing tag </p>
+    <!-- if we want the line to be printed so we can use hr ( horizontal rueler ) -->
+    <hr>
+    <p>now the above line is created using the hr tags the hr tag is also a self clsoing tag </p>
+    <b> we can use b tag so the text will be in the bold </b>
+    <i>we can use i tag so now the text will be in italic</i>
+    <p>we can use ctrl+enter to get into the new line </p>
+    <p> we can use ctrl+/ to give the line as the comment </p>
+
+    <p> we can just type a and just click on the first so we can mention the links that we want </p>
+    <a href="https://google.com" target="_blank"> go to google </a><br>
+    <a href="https://linkedin.com" target="_blank"> go to linkedin</a>
+    <p> now this will take you to google and linkedin </p>
+    <p> we can use target = " _blank " to open the link in the new tab </p>
+    <p> we can also link the html created by just pressing the / button you will get the suggestions </p>
+    <a href="/jagjeet.html" target="_blank"> linked html</a>
+    <p> now you get into linked the html</p>
+    <p> now if we want to put the images we can use it by just typing img </p>
+    <img src="jagjeet.jpg" alt="error loding the image plz try again " >
+    <p>now this will show the error in the iamge becoz the image is not specified </p>
+    <!-- here src is the source and alt is the altered way that if the iamge is not loaded then this is shown -->
+    <img src="https://source.unsplash.com/random/?Cryptocurrency/" alt="crypto" height = "233" width = "244">
+    <P>this link will create the random photos based on the crypto </P>
+
+    <P> now we will know about </P>
+    <p>tables and lists</p>
+    <p>if you want to create the ordered lists then just type the ul inside this just type li then it will create an unorderd list it means it will create bullet pints </p>
+    <ul>
+        <li>this is an unorderd list</li>
+        <li>this is an unordered list</li>
+        <li>this is an unordered list</li>
+    </ul>
+    <p>if we specify the type ex- square, disc, circle then it will be acc to this </p>
+    <ul type = "square">
+        <li>this is an unordered list </li>
+        <li>this is an unordered list </li>
+        <li>this is an unordered list</li>
+    </ul>
+    <P>if you want to create an ordered list then it you just type ol and inside this type li and ordered list will be creted it means it will create the numbers list</P>
+    <ol>
+        <li>this is an ordered list</li>
+        <li>this is an ordered list</li>
+        <li>this is an ordered list</li>
+    </ol>
+    <p>if we specify the type then it will create acc to this numbers</p>
+    <ol type = "I">
+        <li>this is an ordered list</li>
+        <li>this is an ordered list</li>
+        <li>this is an ordered list</li>
+    </ol>
+    <p> we can also use list inside list</p>
+    <ul type = "circle">
+        <li>this is an unordered list </li>
+        <li>
+ <ul>
+                <li>this is an list inside the list </li>
+    </ul>
+        </li>
+    </ul>
+
+    <P> now we will know abot the tabels </P>
+    <table>
+        <thead>
+            <tr>
+                <th> Sno. </th>
+                <th> name </th>
+                <th> class </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> 1</td>
+                <td> hello </td>
+                <td> 1 </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> hello2 </td>
+                <td> 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>now if we want to create the form then we will just type the form just enter and just simply give the action as backend.php </p>
+    <form action="backend.php">
+        <label for="name"> name </label>
+        <div><!-- div is used for division -->
+            <input type="text" name = "myname" id="name"> <!--here you can input the text and give the heading as name -->
+            <!--id is used for label ( to give(specify) the label )-->
+            <!-- text is used to write  -->
+        </div>
+        <br>
+        <div>
+            class : <input type="text" name = " myclass">
+        </div>
+        <br>
+        <div>
+            roll no : <input type="text" name="myrollno" > 
+        </div>
+        <br>
+        <div>
+            subject: <input type="text" name="mysubject">
+        </div>
+        <br>
+        <div>
+            date: <input type="date" name="mydate" >
+            <!-- date is used to give the date  -->
+        </div>
+        <br>
+        <div>
+            bonus:<input type="number" name = "mybonus">
+            <!-- number is used to specify the number in the given list  -->
+        </div>
+        <br>
+        <label for="eligibility"> eligibility </label>
+        <div>
+            <input type="checkbox" name = "myeligibility" id = "eligibility">
+            <!-- checkbox is used for giving the checkbox if we will write checked then it is already checked   -->
+        </div>
+        <br>
+        <div>
+            gender: male<input type="radio" name ="gender"> female <input type="radio" name="gender " >
+            other <input type="radio" name = "gender">
+            <!-- radio is used for giving the option  -->
+        </div>
+        <br>
+        <div>
+            <input type="reset" value = "reset now" >/
+            <!-- reset is used to reset the values entered by the user  -->
+            <br>
+            <br>
+            <input type="submit" value = "submit now">
+            <!-- submit is used to submit the form  -->
+        </div>
+        <div>
+            write about yourself: <br><textarea name="aboutyou"  cols="30" rows="10"></textarea>
+            <!-- textarea is used for giving the text by the user  -->
+        </div>
+        <label for="car"> car</label>
+        <div>
+        <select name="mycar" id = "car"> 
+            <!-- seslect is used for selecting betweenn the given options  -->
+            <option value="swf">swift</option>
+            <option value="ind">indica</option>
+            <!-- if we write selected in any of the option then it will be selected by default -->
+        </select>
+        </div>
+
+        <p> now we will know about the inline and block elements</p>
+        <P>if we want to combine the two paragraphs then we will use span to combine the elements</P>
+        <p style="border: 2px solid red;"> this is paragraph with the border in it </p>
+        <p style="border: 2px solid blue;"> this is also a paragraph with blue border in it </p>
+        <span style="border: 2px solid rgb(0, 255, 68);"> this is a span which is used to combine the line</span> <span style="border: 2px solid rgb(0, 255, 68);"> this is also a span</span>
+        <strong style="border: 2px solid red;"> this is a paragraph which is written in the bold </strong>
+        <P> if we want to write everything in one line then use just 'a' instead of p which is an inline element </P>
+        <a> this is by using 'a' inline element </a>
+        <P>this is a paragraph</P>
+        <P> now we will learn about the ids and the classes</P>
+        <P> ids can be created in the div also the ids is used to uniquely identify the element 
+            class is used when suppose if we have 100 elements and we have to change there colour border we will not change it alone so we will define a class then to do this 
+        </P>
+        <p>ids and classes</p>
+        <div id = "mainBox" class = "redbg blackborder" > <!--here the class has unique id which other cannot have -->
+            this is the mainBox
+        </div>
+        <span class="redbg"></span>
+        <p> if we need the span of the class redbg so we will use shortcut so we will just type span.redbg then press enter so automatically the span will open </p>
+        <span class="redbg"></span> <!-- here i typed span.redbg and then i pressed enter so this is shown -->
+        <P> . is for class and # is for id </P>
+        <P>similarly if we need to get the id which is the shortcut so we can just type span#mainBox and then press enter so we will get the result of the span </P>
+        <span id="mainBox"></span> <!-- here i typed span#mainBox and then pressed entered so i got this -->
+        <P>if we want to create div with the class which is the shortcut so we can jus type div.class.redbg.blackborder.anotherclass so ur div with the another class is also created this is shortcut</P>
+        <div class="class redbg blacborder anotherclass"></div> <!-- here i just typed div.class.redbg.blackborder.anotherclass and then i pressed enter so i got this-->
+        <P>there is also another shortcut by which we can get div this can be done by just typing .classname.nextclass and jsut press enter </P>
+        <div class="classname nextclass"></div><!--here i just typed  .classname.nextclass and then i pressed enter and hence i got this -->
+        <P> if we want 4 span then we will just type sapn.class.class2*4 then it will create 4 span</P>
+        <span class="class class2">first</span><span class="class class2">second</span><span class="class class2">third</span><span class="class class2">fourth</span>
+        <!-- here i just typed span.class.class2*4 and preesed enter so i got this  -->
+        <p> now we will know about the html entities</p> 
+        <P> if we want more than one space in the paragraph then we can do this by using  &nbsp; & nbsp; which stands for non breaking space </P>
+        <P> ex - &nbsp; &nbsp; &nbsp; &nbsp; there are mainly 4 spaces which are created using & nbsp;</P>
+        <P> if we want to use greater than or lesser than sign then we need dto type & lt; and & gt; here lt stands for lesser than and gt stands for greater than </P>
+        <P> ex - &lt; this is created using lt and gt &gt;</P>
+        <P> if we want to give special character such as pund and copyright then we can give it by using & pound; and & copy;</P>
+        <P> ex- this is pound &pound; this is copyright &copy;</P>
+        <P>we can get more such entities by just searching it on google</P>
+        <P>if we want an empty characater then we fcan just type  & #8203 which will create an empty cahracter </P>
+        <p> this is an empty cahracter &#8203;</p>
+        <P>now we will knoe about the scemantic tags we will know about that how the elements in the html are given the meaning</P>
+        <P> now we will know about the schemantic tags</P>
+        <P> just simply ssearch in google about the scematic tags html </P>
+        <P> now we will know about the details </P>
+        <details>
+            this is done useing the details if we have larger content and if we and to use less space 
+        </details>
+        <P>the another example of the details is:- </P>
+        <details>
+            <summary>
+                this is the another example of the details 
+            </summary>
+        </details>
+
+
+
+
+
+    </form>
+</body>
+</html>
